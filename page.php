@@ -12,12 +12,12 @@
 <body>
   <nav>
     <div class="landing-nav"><a href="#landing"><img class="nav-icon" src="<?php bloginfo('template_url'); ?>/img/Nav-Icon.png" /></a></div>
-        <div class="landing-nav-mobile"><a href="#landing"><img class="nav-icon" src="<?php bloginfo('template_url'); ?>/img/Nav-Icon.png" /></a></div>
+    <div class="landing-nav-mobile"><a href="#landing"><img class="nav-icon" src="<?php bloginfo('template_url'); ?>/img/Nav-Icon.png" /></a></div>
     <ul>
       <li class="about-nav"><a href="#about">About Me</a></li>
       <li class="projects-nav"><a href="#projects">Projects</a></li>
       <li class="contact-nav"><a href="#contact">Contact</a></li>
-      <li class="blog-nav"><a href="/blog" target="_blank">Blog</a></li>
+      <li class="blog-nav"><a href="/blog">Blog</a></li>
     </ul>
   </nav>
   <main>
