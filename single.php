@@ -38,11 +38,11 @@ $previous_post_url = get_permalink( get_adjacent_post(false,'',true)->ID );
 	<div class="post-nav-links">
 
 	<?php if (get_adjacent_post(false, '', true)): ?>
-		<a href="<?php echo get_permalink(get_adjacent_post(false,'',true)); ?>" class="post-nav-prev">PREVIOUS</a>
+		<a href="<?php echo get_permalink(get_adjacent_post(false,'',true)); ?>" class="post-nav-prev"><button><i class="fas fa-step-backward"></i> Previous Post</button></a>
 	<?php endif; ?>
 
 	<?php if (get_adjacent_post(false, '', false)): ?>
-		<a href="<?php echo get_permalink(get_adjacent_post(false,'',false)); ?>" class="post-nav-next">NEXT</a>
+		<a href="<?php echo get_permalink(get_adjacent_post(false,'',false)); ?>" class="post-nav-next"><button>Next Post <i class="fas fa-step-forward"></i></button></a>
 	<?php endif; ?>
 
 </div>
