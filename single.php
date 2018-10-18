@@ -31,16 +31,19 @@ $previous_post_url = get_permalink( get_adjacent_post(false,'',true)->ID );
         <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('F m, Y'); ?> in <?php echo get_the_category_list(', '); ?></p>
   </div>
 
-<div class="post-content"><?php the_content(); ?></div>
-<div class="post-nav-links">
+	<div class="post-content">
+		<?php the_content(); ?>
+	</div>
 
-<?php if (get_adjacent_post(false, '', true)): ?>
-	<a href="<?php echo get_permalink(get_adjacent_post(false,'',true)); ?>" class="post-nav-prev">PREVIOUS</a>
-<?php endif; ?>
+	<div class="post-nav-links">
 
-<?php if (get_adjacent_post(false, '', false)): ?>
-	<a href="<?php echo get_permalink(get_adjacent_post(false,'',false)); ?>" class="post-nav-next">NEXT</a>
-<?php endif; ?>
+	<?php if (get_adjacent_post(false, '', true)): ?>
+		<a href="<?php echo get_permalink(get_adjacent_post(false,'',true)); ?>" class="post-nav-prev">PREVIOUS</a>
+	<?php endif; ?>
+
+	<?php if (get_adjacent_post(false, '', false)): ?>
+		<a href="<?php echo get_permalink(get_adjacent_post(false,'',false)); ?>" class="post-nav-next">NEXT</a>
+	<?php endif; ?>
 
 </div>
 	<?php }
