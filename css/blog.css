@@ -165,6 +165,19 @@ header.blog-header {
 	max-width: 90%;
 }
 
+.blog-home-link {
+	margin: 50px;
+}
+
+.blog-home-link a,
+.blog-home-link a:hover,
+.blog-home-link a:active,
+.blog-home-link a:visited {
+	color: #9a1750;
+	text-decoration: none;
+	font-size: 20px;
+}
+
 .featured-image-single {
 	text-align: center;
 	margin: 30px auto;
@@ -196,7 +209,7 @@ header.blog-header {
 .post-nav-links {
 	width: 95%;
 	margin: 50px auto;
-	padding: 5px 0;
+	padding: 20px 0;
 }
 
 .post-nav-prev {
@@ -213,9 +226,10 @@ header.blog-header {
 	background-color: #e3e2df;
 	color: #9a1750;
 	border: 2px solid #9a1750;
-	width: 100px;
-	height: 30px;
+	width: 150px;
+	padding: 10px;
 	cursor: pointer;
+	font-size: 20px;
 }
 
 .post-nav-links button:hover {

@@ -17,7 +17,10 @@ $previous_post_url = get_permalink( get_adjacent_post(false,'',true)->ID );
 
 ?>
 
-<a class="blog-home-link" href="<?php echo site_url('/blog'); ?>">Blog Home</a>
+<div class="blog-home-link">
+	<a href="<?php echo site_url('/blog'); ?>"><i class="fas fa-home"></i>  Blog Home</a>
+</div>
+
 <?php if ( has_post_thumbnail() ) { ?>
 	<div class="featured-image-single">
 		<?php the_post_thumbnail(array(1092,420)); ?>
