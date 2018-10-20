@@ -91,6 +91,7 @@ header.blog-header {
 
 .post-item {
 	text-align: left;
+	line-height: 1.75em;
 	width: 80%;
 	height: auto;
 	margin: -50px auto 100px auto;
