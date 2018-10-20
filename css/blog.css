@@ -151,7 +151,7 @@ header.blog-header {
 .post-item button {
 	display: block;
 	text-align: center;
-	margin: 30px auto 10px auto;
+	margin: 50px auto;
 	background-color: #e3e2df;
 	color: #9a1750;
 	border: 2px solid #9a1750;
@@ -303,13 +303,13 @@ header.blog-header {
 }
 
 .pagination .page-numbers.current:hover {
-	border: none;
 	color: #333;
+	border: 2px solid #333;
 	background-color: #e3e2df;
 }
 
 .pagination .current {
-	border: none;
+	border: 2px solid #333;
 	color: #333;
 }
 
