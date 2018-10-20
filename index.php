@@ -35,10 +35,13 @@
   <div class="continue-button"><a href="<?php the_permalink(); ?>" class="post-full-link"><button>Continue Reading</button></a></div>
 </div>
 
+
+<?php } ?>
+
 <div class="pagination">
-<?php } 
+  <?php
   echo paginate_links();
-?>
+  ?>
 </div>
 
  </div>
