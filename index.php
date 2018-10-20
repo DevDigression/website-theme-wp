@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <div class="blog-page-nav">
 <div class="blog-page-nav-icon">
-  <a href="../#landing"><img class="nav-icon" src="<?php bloginfo('template_url'); ?>/img/Nav-Icon.png" /></a>
+  <a href="<?php echo site_url('/#landing'); ?>"><img class="nav-icon" src="<?php bloginfo('template_url'); ?>/img/Nav-Icon.png" /></a>
 </div>
   <ul>
-    <li class="about-nav"><a href="../#about">About Me</a></li>
-    <li class="projects-nav"><a href="../#projects">Projects</a></li>
-    <li class="contact-nav"><a href="../#contact">Contact</a></li>
+    <li class="about-nav"><a href="<?php echo site_url('/#about'); ?>">About Me</a></li>
+    <li class="projects-nav"><a href="<?php echo site_url('/#projects'); ?>">Projects</a></li>
+    <li class="contact-nav"><a href="<?php echo site_url('/#contact'); ?>">Contact</a></li>
   </ul>
 </div>
 
