@@ -91,6 +91,7 @@ header.blog-header {
 
 .post-item {
 	text-align: left;
+	font-size: 20px;
 	line-height: 1.75em;
 	width: 80%;
 	height: auto;
@@ -109,14 +110,18 @@ header.blog-header {
 	font-size: 20px;
 }
 
+.post-item p {
+	margin-top: 1.75em;
+}
+
 .post-item a {
 	text-decoration: none;
 	color: #9a1750;
 }
 
 .post-excerpt {
-	margin-top: 30px;
-	padding: 20px;
+	margin-top: 50px;
+	padding: 0 50px;
 }
 
 .post-item img {
@@ -148,6 +153,14 @@ header.blog-header {
 	display: block;
 	font-size: 32px;
 	color: #9a1750;
+	margin: 40px auto 0 auto;
+}
+
+.post-header {
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 28px;
 }
 
 .post-header a {
@@ -205,13 +218,6 @@ header.blog-header {
 	height: auto;
 	z-index: -2;
 	position: relative;
-}
-
-.post-header {
-	width: 80%;
-	margin: 20px auto;
-	text-align: center;
-	font-size: 28px;
 }
 
 .post-title-single {
