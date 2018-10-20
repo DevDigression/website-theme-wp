@@ -11,10 +11,10 @@
 </div>
 
  <div class="blog-page">
-	<header class="blog-header">
+<!-- 	<header class="blog-header">
 		<h1>Dev Digression</h1>
 		<h2>by Chris Rodgers</h2>
-	</header>
+	</header> -->
 
 <?php while (have_posts()) {
   the_post();
