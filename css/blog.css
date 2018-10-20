@@ -89,6 +89,10 @@ header.blog-header {
 	position: relative;
 }
 
+.more-link {
+	display: none;
+}
+
 .post-item {
 	text-align: left;
 	font-size: 20px;
@@ -122,6 +126,18 @@ header.blog-header {
 .post-excerpt {
 	margin-top: 50px;
 	padding: 0 50px;
+}
+
+.post-excerpt a:visited,
+.post-content a:visited,
+.post-excerpt a:active,
+.post-content a:active {
+	color: #9a1750;
+}
+
+.post-excerpt a:hover,
+.post-content a:hover {
+	color: #e3afbc;
 }
 
 .post-item img {
@@ -277,10 +293,16 @@ header.blog-header {
 	text-decoration: none;
 }
 
-.pagination a:hover {
+.pagination .page-numbers:hover {
 	background-color: #9a1750;
 	color: #e3e2df;
 	border: 2px solid #ee4c7c;
+}
+
+.pagination .page-numbers.current:hover {
+	border: none;
+	color: #333;
+	background-color: #e3e2df;
 }
 
 .pagination .current {
