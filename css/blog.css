@@ -1,4 +1,6 @@
 .blog-page-nav {
+	display: flex;
+	justify-content: space-between;
 	z-index: 5;
 	width: 100%;
 	height: 65px;
@@ -25,7 +27,6 @@
 }
 
 .blog-page-nav ul {
-	position: absolute;
 	padding-top: 20px;
 	font-size: 18px;
 	width: 90%;
@@ -242,6 +243,10 @@ header.blog-header {
 	.blog-page-nav .nav-icon {
 		width: 50px;
 		margin: 5px auto 0 10px;
+	}
+
+	.blog-page-nav ul {
+		padding-right: 10px;
 	}
 
 	.blog-page-nav li {
