@@ -128,11 +128,14 @@ header.blog-header {
 	padding: 0 50px;
 }
 
+.post-content a,
+.post-excerpt a,
 .post-excerpt a:visited,
 .post-content a:visited,
 .post-excerpt a:active,
 .post-content a:active {
 	color: #9a1750;
+	text-decoration: none;
 }
 
 .post-excerpt a:hover,
