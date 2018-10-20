@@ -78,7 +78,7 @@ header.blog-header {
 .featured-image {
 	text-align: center;
 	margin: 0 auto;
-	width: 80%;
+	width: 85%;
 	z-index: -1;
 }
 
@@ -91,7 +91,7 @@ header.blog-header {
 
 .post-item {
 	text-align: left;
-	width: 70%;
+	width: 80%;
 	height: auto;
 	margin: -50px auto 100px auto;
 	border: 2px solid #9a1750;
@@ -237,6 +237,19 @@ header.blog-header {
 	background-color: #9a1750;
 	color: #e3e2df;
 	border: 2px solid #ee4c7c;
+}
+
+@media only screen and (max-width: 768px) {
+	.post-item {
+		margin: -25px auto 100px auto;
+	}
+	.featured-image {
+		width: 95%;
+	}
+
+	.featured-image img {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 415px) {

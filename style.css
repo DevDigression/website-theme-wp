@@ -538,14 +538,6 @@ footer {
 	.contact-text {
 		width: 90%;
 	}
-
-	.featured-image {
-		width: 100%;
-	}
-
-	.featured-image img {
-		width: 100%;
-	}
 }
 
 @media only screen and (max-width: 768px) {
