@@ -240,7 +240,7 @@ footer {
 
 .about-text {
 	font-size: 20px;
-	width: 60%;
+	width: 80%;
 	padding: 20px;
 	margin: 0 auto;
 }
@@ -370,7 +370,7 @@ footer {
 
 .contact-text {
 	font-size: 20px;
-	width: 60%;
+	width: 80%;
 	padding: 20px;
 	margin: 0 auto;
 }
@@ -384,28 +384,6 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-	.project-image-left {
-		margin: 100px auto 10px 10px;
-	}
-
-	.project-image-right {
-		margin: 100px 10px 10px auto;
-	}
-
-	.about-header:after {
-		margin-left: 70px;
-	}
-
-	.projects-header:after {
-		margin-left: 70px;
-	}
-
-	.contact-header:after {
-		margin-left: 70px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
 	nav {
 		z-index: 5;
 		width: 100%;
@@ -523,7 +501,7 @@ footer {
 	}
 
 	.project {
-		width: 100%;
+		width: 98%;
 		margin: 50px auto;
 		display: block;
 	}
