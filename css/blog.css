@@ -284,15 +284,16 @@ header.blog-header {
 }
 
 .pagination {
-	width: 95%;
+	display: flex;
+	justify-content: space-between;
 	margin: 50px auto;
+	padding: 0 50px;
 }
 
 .pagination .page-numbers {
 	font-size: 24px;
 	border: 2px solid #9a1750;
 	padding: 20px;
-	margin: 20px;
 	color: #9a1750;
 	text-decoration: none;
 }
@@ -316,7 +317,12 @@ header.blog-header {
 
 @media only screen and (max-width: 768px) {
 	.post-item {
+		width: 90%;
 		margin: -25px auto 100px auto;
+	}
+
+	.featured-image {
+		width: 95%;
 	}
 
 	.post-item .post-info {
@@ -342,9 +348,22 @@ header.blog-header {
 	.blog-home-link {
 		margin: 0 auto 60px 30px;
 	}
+
+	.pagination {
+		padding: 0 20px;
+	}
 }
 
 @media only screen and (max-width: 415px) {
+	.post-item {
+		width: 95%;
+		margin: -25px auto 100px auto;
+	}
+
+	.featured-image {
+		width: 100%;
+	}
+
 	.blog-page-nav .nav-icon {
 		width: 50px;
 		margin: 5px auto 0 10px;
@@ -356,5 +375,10 @@ header.blog-header {
 
 	.blog-page-nav li {
 		padding: 0 10px;
+	}
+
+	.pagination .page-numbers {
+		font-size: 18px;
+		padding: 10px;
 	}
 }
