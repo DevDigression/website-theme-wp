@@ -111,6 +111,7 @@ header.blog-header {
 
 .post-item .post-info {
 	text-align: right;
+	padding: 30px 50px 0 0;
 	font-size: 20px;
 }
 
@@ -151,7 +152,7 @@ header.blog-header {
 .post-item button {
 	display: block;
 	text-align: center;
-	margin: 50px auto;
+	margin: 40px auto;
 	background-color: #e3e2df;
 	color: #9a1750;
 	border: 2px solid #9a1750;
@@ -317,6 +318,19 @@ header.blog-header {
 	.post-item {
 		margin: -25px auto 100px auto;
 	}
+
+	.post-item .post-info {
+		padding: 10px 10px 0 0;
+	}
+
+	.post-item button {
+		margin: 40px auto 20px auto;
+	}
+	.post-excerpt {
+		margin-top: 40px;
+		padding: 0 20px;
+	}
+
 	.featured-image {
 		width: 95%;
 	}

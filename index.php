@@ -27,7 +27,7 @@
 <?php } ?> 
 
 <div class="post-item">
-    <div class="post-info"><p><!-- Posted by <?php the_author_posts_link(); ?> on --> <?php the_time('F m, Y'); ?> <!-- in <?php echo get_the_category_list(', '); ?> --></p></div>
+    <div class="post-info"><!-- Posted by <?php the_author_posts_link(); ?> on --> <?php the_time('F m, Y'); ?> <!-- in <?php echo get_the_category_list(', '); ?> --></div>
 
   <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
