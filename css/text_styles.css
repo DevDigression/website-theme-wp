@@ -1,0 +1,107 @@
+code {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.react {
+	color: #61dafb;
+	background-color: #282c34;
+	padding: 2px 5px;
+}
+
+.black-bg {
+	background-color: #000;
+}
+
+.orange {
+	color: #ff6600;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.blue {
+	color: #33d6ff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.green {
+	color: #00ff00;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.pink {
+	color: #b3003b;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.white {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.gold {
+	color: #ffcc33;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.component {
+	background-color: #FFFFFFF;
+	color: #b3003b;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.component::before {
+	content: "< ";
+}
+
+.component::after {
+	content: " >";
+}
+
+.function {
+	padding: 2px 5px;
+	text-align: center;
+	background-color: #000;
+	color: #33d6ff;
+	font-size: 14px;
+}
+
+.object {
+	padding: 2px 5px;
+	color: #ff6600;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.file {
+	padding: 2px 5px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+}
+
+.command {
+	padding: 2px 5px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+}
+
+.command::before {
+	content: "> ";
+}

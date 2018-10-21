@@ -5,6 +5,7 @@ Version: 1.0
 */
 
 @import "./css/blog.css";
+@import "./css/text_styles.css";
 
 * {
 	box-sizing: border-box;
